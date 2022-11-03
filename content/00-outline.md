@@ -38,7 +38,7 @@ Finallly, we demonstrate a case study for an HCAI interface for taxonomy design 
 
 # Proposed framework
 - Humans and machines are MCOs for each other 
-- the "goal" is an _explicit_, _shared_ schema, such that a priori schemas cannot be assumed but can be lleveraged via scaffolding
+- the "goal" is an _explicit_, _shared_ schema, such that a priori schemas cannot be assumed but can be leveraged via scaffolding
 - We can achieve this by combining human+machine into a single agent with two sides: we name it a "Scaffold".  
 - Scaffold: wants to adapt new information into a shared explicit schema
   - Accomodate new info/concept/observation by adjusting the schema
@@ -55,7 +55,13 @@ Finallly, we demonstrate a case study for an HCAI interface for taxonomy design 
 
 # Case study: Taxonomy extraction
 
-Only looking at entities, with some kind of partial order (super, sub, sibling). 
+<!-- Only looking at entities, with some kind of partial order (super, sub, sibling).  -->
+
+Our case study demonstrates the advantages of approaching schema development via a human-machine scaffold.
+We show how entities (or "tags") can be aggeregated from text data and structured into a taxonomy, which is a schema that implies a partial ordering of entities with parent, child, and sibling relationships.
+Mining tag taxonomies from text data is a requisite for capturing semantic relations and modeling word associations.
+For example, organizing tag information in a taxonomy helps to structure valid groups of tags to describe a certain concept.
+
 
 ## Task analysis
 We can build a deeper task analysis of the decisions that get made in this context. 
